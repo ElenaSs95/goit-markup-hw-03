@@ -1,0 +1,62 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+/* Шапка */
+.logo {
+  color: #000000;
+}
+
+.logo-part {
+  color: #2196f3;
+}
+
+.link {
+  color: #212121;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.mail-tel {
+  color: #757575;
+}
+
+.mail-tel:hover,
+.mail-tel:focus {
+  color: #2196f3;
+}
+
+/* Секция 1 */
+
+.hero-title {
+}
+
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* Секция 2 */
+
+.section-title {
+  color: #212121;
+}
+
+/* О нас */
+
+.features-title {
+  color: #000000;
+}
