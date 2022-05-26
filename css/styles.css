@@ -348,6 +348,7 @@ body {
   line-height: 1.62;
   color: var(--title-text-color);
   cursor: pointer;
+  background-color: var(--section-our-team-color);
 }
 
 .section-works-item {
