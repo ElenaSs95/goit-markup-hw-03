@@ -284,6 +284,9 @@ body {
 /* -------------------------------Подвал---------------------------- */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--hero-footer-color);
 }
 .footer-logo {
@@ -324,7 +327,7 @@ body {
 .section-works {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .section-list {
@@ -336,6 +339,7 @@ body {
 }
 
 .section-works-button {
+  padding: 6px 22px;
   border-radius: 4px;
   border-color: transparent;
 
@@ -355,7 +359,6 @@ body {
 }
 
 .section-works-list {
-  border-bottom: 1px solid #eeeeee;
   flex-basis: calc(100% / 3 - var(--px-left-right));
   margin-left: var(--px-left-right);
   margin-top: var(--px-left-right);
@@ -383,7 +386,8 @@ body {
 }
 
 .other-text {
-  display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
